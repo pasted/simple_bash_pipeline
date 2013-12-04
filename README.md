@@ -1,4 +1,4 @@
-clinical_sequencing_pipeline
+Clinical Sequencing Pipeline
 ============================
 
 Alignment and analysis pipeline for NHS targeted sequencing
