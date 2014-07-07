@@ -6,11 +6,11 @@
 #
 #User details
 #email will be sent to this account on completion
-user_email="gj238@exeter.ac.uk"
+user_email="xxx@nhs.net"
 
 #ftp details
 #Available from notification email from the Exeter sequencing service
-ftp_string="ftp://Project_2029:muG4BrYmUlIUW@zeus-galaxy.ex.ac.uk/"
+ftp_string="ftp://xxxx"
 #ftp_string=""
 
 #Sequencing batch id
@@ -18,8 +18,8 @@ ftp_string="ftp://Project_2029:muG4BrYmUlIUW@zeus-galaxy.ex.ac.uk/"
 sequencing_batch_id="P5_8"
 
 #batch id given by sequencing spreadsheet
-#batch_id="P5_145-216"
-batch_id="P5_385-432"
+#batch_id="P5_385-432"
+batch_id=""
 
 #Flowcell lane will be in the summary
 lane="2"
@@ -70,8 +70,8 @@ function GetSamples() {
 #Phenotype specific sub-batches - Change these to reflect the distribution of the samples by phenotype
 
 
-ndm_batch=("389" "390" "391" "393" "395" "397" "398" "399" "408" "411" "413" "415" "417" "420" "421" "423" "425")
-mody_batch=("385" "386" "387" "388" "392" "396" "400" "401" "402" "403" "404" "405" "406" "407" "409" "410" "412" "414" "416" "418" "419" "422" "424" "426" "427" "428" "429" "430" "431" "432")
+ndm_batch=("398" "425")
+mody_batch=("425" "398")
 #hi_batch=()
 ndm_mody_batch=("394")
 all_batch=("")
