@@ -2,6 +2,8 @@ Clinical Sequencing Pipeline
 ============================
 
 Alignment and analysis pipeline for NHS targeted sequencing
+Only for historical interest. Original Bash pipeline for Exeter Molecular Genetics Lab circa 2012-2013
+GATK Best practices pipeline with hard filtering on a given common sequencing artefacts and variants of no known clinical signficance. Since superceded by a Ruby based pipeline (after 2013).
 
     Copyright (C) 2013 Garan Jones
 
