@@ -1,9 +1,19 @@
-Clinical Sequencing Pipeline
+#Clinical Sequencing Pipeline
 ============================
 
 Alignment and analysis pipeline for NHS targeted sequencing
+
 Only for historical interest. Original Bash pipeline for Exeter Molecular Genetics Lab circa 2012-2013
+
 GATK Best practices pipeline with hard filtering on a given common sequencing artefacts and variants of no known clinical signficance. Since superceded by a Ruby based pipeline (after 2013).
+
+##### Example format for the sample_list.csv
+```
+Capture number,MODY number,EX number,Gender,Analysis,Disease,Sample type,Comment
+p5_8_001,MY0000XX01,EX0000001,Male,MODY,MODY,Whole blood,positive control (1) HNF1A c.872dup/N
+p5_8_002,MY0000YY02,EX0000003,Female,MODY,MODY,Whole blood,positive control (2) HNF1B delex1-9/N
+```
+##### Licence
 
     Copyright (C) 2013 Garan Jones
 
