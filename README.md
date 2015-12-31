@@ -1,4 +1,4 @@
-#Clinical Sequencing Pipeline
+#Simple BASH Pipeline
 ============================
 
 Alignment and analysis pipeline for NHS targeted sequencing
